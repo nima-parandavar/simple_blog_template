@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+
+    <script src="https://kit.fontawesome.com/9fea9eab69.js" crossorigin="anonymous"></script>
+    <title>Index</title>
+</head>
+
+<body>
+    <nav class="navbar is-white" role="navigation">
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#" class="navbar-item p-2">Home</a>
+                <a href="#" class="navbar-item p-2">Category</a>
+            </div>
+            <div class="navbar-end">
+                <a href="#" class="navbar-item">Log in</a>
+                <a href="#" class="navbar-item">
+                    <!-- <span class="icon"><i class="fa-solid fa-user"></i></span> -->
+                    <div id="avatar">
+
+                    </div>
+                </a>
+                <span class="navbar-item has-text-muted">|</span>
+                <a href="#" class="navbar-item is-danger">
+                    <span class="icon has-text-success"><i class="fa-solid fa-pen-clip"></i></span>
+                    <span>Write a new post</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+</body>
+<div class="column is-6 head">
+    <dive class="image block"><img src="./static/img.jpg" alt=""></dive>
+    <h1 class="title is-1 block">Title</h1>
+    <p class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque in inventore autem tempora.
+        Sint, voluptatem! Beatae, cumque officiis amet id vero tempore obcaecati. Atque accusantium natus illum eligendi
+        corrupti optio?</p>
+    <hr>
+    <div>
+        <div class="block ah">
+            <div class="author">
+                <img src="./static/img.jpg" class="author-img" alt="">
+                <h4 class="title is-4"><a href="#">Nima Parandavar</a></h4>
+            </div>
+            <div class="block like">
+                <p class="button"><span class="icon is-danger"><i class="fa-solid fa-heart"></i></span></p>
+                <p class="button"><span class="icon"><i class="fa-solid fa-share"></i></span></p>
+                <p class="button"><span class="icon"><i class="fa-solid fa-copy"></i></span></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h3 class="title is-3">Comments</h3>
+    <form class="field">
+        <div class="control block">
+            <input type="textarea is-small ta" class="textarea">
+        </div>
+        <div class="control block">
+            <input type="submit" class="button" value="send">
+        </div>
+    </form>
+    <div class="comments">
+        <ul>
+            <li class="comment">
+                <div class="author">
+                    <img src="./static/img.jpg" class="author-img" alt="">
+                    <h4 class="title is-4">Nima Parandavar</h4>
+                </div>
+                <hr>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, asperiores.</p>
+            </li>
+            <li class="comment">
+                <div class="author">
+                    <img src="./static/img.jpg" class="author-img" alt="">
+                    <h4 class="title is-4">Nima Parandavar</h4>
+                </div>
+                <hr>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, asperiores.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
