@@ -1,9 +1,15 @@
-#avatar{
-    width: 25px;
-    height: 25px;
+.avatar{
     border-radius: 50%;
-    background-color: blueviolet;
+    margin-top: 5px;
+    margin-left: 10px;
 }
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     margin-top: 30px;
 }
@@ -25,6 +31,7 @@
 
 .see-more{
     float: right;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -51,6 +58,7 @@ footer{
 }
 .like{
     font-size: 16px;
+    display: inline-flex;
 }
 .ah{
     display: flex;
@@ -84,4 +92,18 @@ footer{
 }
 .cc-img img{
     width: 100%;
+}
+
+.like-btn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.like-btn p{
+    margin-right: 20px;
+}
+
+#id_themes div{
+    margin-bottom: 10px;
 }
